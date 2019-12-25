@@ -2,37 +2,25 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.core.mail import EmailMessage
 
+from .forms import ContactForm
+
 
 class VacancyView(APIView):
     def post(self, request):
-        try:
-            name = request.data['name']
-            email = request.data['email']
-            tel = request.data['tel']
-            birth_date = request.data['birth_date']
-            sex = request.data['sex']
-            experience = request.data['experience']
-            driver_license = request.data['driver_license']
-            passenger_transport_license = request.data['passenger_transport_license']
-            additional_qualification = request.data['additional_qualification']
-            contact_info = request.data['contact_info']
-            comment = request.data['comment']
-            resume = request.data['resume']
-        except KeyError:
-            return Response({'error': 'is not specified'})
-        return Response({'success': 1})
+        data = ContactForm(request.data)
+        if data.is_valid():
+            return Response(request.data)
+        else:
+            return Response(data.errors)
 
 
 class ContactView(APIView):
     def post(self, request):
-        try:
-            title = request.data['title']
-            name = request.data['name']
-            email = request.data['email']
-            message = request.data['message']
-        except KeyError:
-            return Response({'error': 'is not specified'})
-        return Response({'success': 1})
+        data = ContactForm(request.data)
+        if data.is_valid():
+            return Response(request.data)
+        else:
+            return Response(data.errors)
 
 
 def email(subject, from_email, to, html_content):
