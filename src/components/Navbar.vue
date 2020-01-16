@@ -1,0 +1,471 @@
+<template>
+  <div class="navb ">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      variant="brown"
+    >
+      <div class="container">
+        <a
+          href="/"
+          @click="myToggler"
+        >
+          <b-navbar-brand>
+            <svg
+              width="211"
+              height="58"
+              viewBox="0 0 211 58"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M178.549 20.4964C178.549 20.4964 171.624 42.7289 169.566 47.6591C167.516 53.7187 159.087 54.7806 159.087 54.7806C156.953 55.074 154.784 54.7953 152.777 53.9696C150.77 53.1439 148.989 51.7975 147.595 50.0526C145.22 47.794 138.382 20.3025 138.382 20.3025L153.42 20.252C153.553 20.2602 153.684 20.2974 153.803 20.3611C153.923 20.4249 154.029 20.514 154.114 20.6228C154.2 20.7317 154.265 20.8581 154.303 20.9944C154.342 21.1306 154.353 21.2737 154.338 21.415L158.003 39.6106L158.446 39.7033L162.72 20.488L178.549 20.4964Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M119.189 20.4964H134.773V54.0979C134.773 54.3215 134.689 54.5358 134.541 54.6939C134.393 54.8519 134.191 54.9407 133.981 54.9407H119.98C119.77 54.9407 119.569 54.8519 119.42 54.6939C119.272 54.5358 119.189 54.3215 119.189 54.0979V20.4964Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M84.6881 20.3952V29.6658C84.6881 29.8893 84.7715 30.1037 84.9199 30.2617C85.0684 30.4198 85.2697 30.5086 85.4796 30.5086C85.4796 30.5086 91.4078 30.5086 91.6215 30.5086C91.8815 30.5595 92.1185 30.7001 92.2959 30.9088C92.4733 31.1175 92.5812 31.3826 92.6029 31.6632V54.0979C92.6029 54.3215 92.6863 54.5358 92.8347 54.6939C92.9831 54.8519 93.1845 54.9407 93.3944 54.9407H107.57C107.78 54.9407 107.981 54.8519 108.129 54.6939C108.278 54.5358 108.361 54.3215 108.361 54.0979V31.5283C108.395 31.2672 108.511 31.0262 108.691 30.8453C108.871 30.6644 109.104 30.5545 109.351 30.5339H115.461C115.671 30.5339 115.872 30.4451 116.02 30.287C116.169 30.129 116.252 29.9146 116.252 29.6911V20.4205L84.6881 20.3952Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M80.9207 54.8817L67.4655 54.9407C65.7955 54.8396 66.1042 53.508 66.1042 53.508C66.1042 53.508 66.1042 44.8948 66.1042 44.4481C65.6135 39.8129 61.1258 40.5124 61.0308 40.5208C60.9359 40.5292 60.3976 40.8832 60.2394 41.9619C60.2394 42.0799 60.184 54.848 60.184 54.848H45.4229C44.671 54.848 44.5048 54.2581 44.5602 53.7103L44.4415 20.3952H60.2077L60.2552 31.8317C62.7342 30.1778 64.6038 27.6663 65.5502 24.7187C66.769 20.5048 69.278 20.2773 70.671 20.1677C72.064 20.0581 74.6284 20.6059 83.2476 20.3194C82.9073 21.3054 79.7018 31.2755 74.4226 34.8995C80.8178 36.7789 81.356 39.1134 81.8942 42.1895C81.9575 49.6144 81.8942 54.7132 81.8942 54.7132C81.5855 54.846 81.2529 54.9036 80.9207 54.8817Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M19.4624 20.3106C0.490717 20.3106 0 31.0054 0 31.0054L0.0395739 54.106C0.0395739 54.3295 0.122961 54.5439 0.271392 54.7019C0.419823 54.86 0.621139 54.9488 0.831051 54.9488H14.6661C14.6661 54.9488 16.0907 55.151 16.0274 53.3222C16.0274 52.8587 16.0274 42.8128 16.1066 41.5907C16.1507 38.316 16.4152 35.0489 16.898 31.8145C17.7687 28.5867 23.5227 29.0839 22.3751 35.1856H17.9665L18.0061 42.7706C18.0061 42.7706 18.0061 43.7735 19.2646 43.7735C20.0565 43.7452 20.8492 43.7649 21.639 43.8325C21.7261 43.8325 22.6837 43.8325 22.6283 45.4591L22.6837 54.9066H38.0938C38.3037 54.9066 38.505 54.8178 38.6535 54.6598C38.8019 54.5017 38.8853 54.2874 38.8853 54.0639V31.7387C38.8853 31.7387 38.4342 20.3106 19.4624 20.3106Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M201.906 26.6487C201.468 26.8676 201.005 27.0262 200.529 27.1206C196.08 27.5287 191.603 26.8633 187.43 25.1738C187.01 24.9711 186.61 24.7256 186.235 24.4406C184.327 23.0753 183.987 20.8925 185.791 19.3839C187.438 18.0167 189.297 16.9671 191.284 16.2825C196.674 14.5618 202.28 13.7346 207.905 13.83C208.915 13.9094 209.917 14.0671 210.905 14.302L210.968 15.0857L207.011 16.0886C203.623 16.9314 200.22 17.6562 196.872 18.617C195.757 19.0222 194.745 19.6939 193.912 20.5807C192.788 21.6678 193.018 22.9657 194.45 23.5304C196.263 24.2383 198.178 24.6597 200.038 25.2159C200.7 25.4793 201.348 25.7832 201.977 26.1261L201.906 26.6487Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M188.839 14.0489C188.593 14.7651 188.18 15.4027 187.639 15.9012C187.097 16.3997 186.445 16.7427 185.744 16.8975C183.846 17.5368 181.882 17.9302 179.895 18.069C173.334 18.4061 167.002 16.9986 160.67 15.1698C156.137 13.8326 151.6 12.501 147.057 11.175C142.134 9.74231 137.242 8.14103 132.264 6.96114C121.975 4.43281 111.606 3.4889 101.159 4.90476C97.0985 5.461 93.1015 6.96114 89.2233 8.45286C79.4406 12.2285 69.4363 14.8664 59.0442 15.4648C49.8868 15.9957 40.7215 16.3665 31.58 17.1503C23.0162 17.8498 14.4524 18.7263 6.07063 20.9597C4.55099 21.3642 2.99178 21.6255 1.45631 21.9542L1.26636 21.5496C2.36651 20.8838 3.44292 20.159 4.57473 19.5691C11.0153 16.3057 18.0236 14.5061 25.1532 14.2849C35.7748 13.6781 46.3727 13.4 56.9864 12.8859C65.0665 12.4098 73.031 10.6222 80.6041 7.5848C85.6933 5.6127 90.7429 3.4889 95.9112 1.79491C101.808 -0.143479 107.878 -0.32889 114.02 0.379043C124.072 1.53365 133.855 4.07884 143.566 6.92743C150.761 9.03438 157.884 11.4363 165.118 13.3747C170.832 14.9667 176.775 15.4097 182.641 14.681C184.612 14.4282 186.591 14.2765 188.839 14.0489Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M207.098 35.4557H163.092C162.349 35.4557 161.746 36.0971 161.746 36.8884V52.9518C161.746 53.743 162.349 54.3845 163.092 54.3845H207.098C207.841 54.3845 208.443 53.743 208.443 52.9518V36.8884C208.443 36.0971 207.841 35.4557 207.098 35.4557Z"
+                  fill="#F8DB00"
+                />
+                <path
+                  d="M207.098 36.0456C207.308 36.0456 207.509 36.1344 207.658 36.2925C207.806 36.4505 207.889 36.6649 207.889 36.8884V52.9518C207.889 53.1753 207.806 53.3897 207.658 53.5477C207.509 53.7058 207.308 53.7946 207.098 53.7946H163.092C162.882 53.7946 162.681 53.7058 162.532 53.5477C162.384 53.3897 162.3 53.1753 162.3 52.9518V36.8884C162.3 36.6649 162.384 36.4505 162.532 36.2925C162.681 36.1344 162.882 36.0456 163.092 36.0456H207.098ZM207.098 34.8658H163.092C162.588 34.8658 162.105 35.0789 161.749 35.4582C161.392 35.8375 161.192 36.352 161.192 36.8884V52.9518C161.192 53.4882 161.392 54.0027 161.749 54.382C162.105 54.7613 162.588 54.9745 163.092 54.9745H207.098C207.602 54.9745 208.085 54.7613 208.441 54.382C208.797 54.0027 208.998 53.4882 208.998 52.9518V36.8884C208.998 36.352 208.797 35.8375 208.441 35.4582C208.085 35.0789 207.602 34.8658 207.098 34.8658Z"
+                  fill="#004197"
+                />
+                <path
+                  d="M169.21 52V41.2949H165.387V39.1152H175.626V41.2949H171.812V52H169.21ZM188.933 52H186.103L184.978 49.0732H179.827L178.764 52H176.004L181.022 39.1152H183.773L188.933 52ZM184.143 46.9023L182.367 42.1211L180.627 46.9023H184.143ZM189.012 52L193.415 45.2764L189.425 39.1152H192.466L195.05 43.2549L197.581 39.1152H200.596L196.588 45.373L200.991 52H197.854L194.997 47.5439L192.132 52H189.012ZM202.248 52V39.1152H204.85V52H202.248Z"
+                  fill="#004197"
+                />
+                <path
+                  d="M169.21 52H168.71V52.5H169.21V52ZM169.21 41.2949H169.71V40.7949H169.21V41.2949ZM165.387 41.2949H164.887V41.7949H165.387V41.2949ZM165.387 39.1152V38.6152H164.887V39.1152H165.387ZM175.626 39.1152H176.126V38.6152H175.626V39.1152ZM175.626 41.2949V41.7949H176.126V41.2949H175.626ZM171.812 41.2949V40.7949H171.312V41.2949H171.812ZM171.812 52V52.5H172.312V52H171.812ZM169.71 52V41.2949H168.71V52H169.71ZM169.21 40.7949H165.387V41.7949H169.21V40.7949ZM165.887 41.2949V39.1152H164.887V41.2949H165.887ZM165.387 39.6152H175.626V38.6152H165.387V39.6152ZM175.126 39.1152V41.2949H176.126V39.1152H175.126ZM175.626 40.7949H171.812V41.7949H175.626V40.7949ZM171.312 41.2949V52H172.312V41.2949H171.312ZM171.812 51.5H169.21V52.5H171.812V51.5ZM188.933 52V52.5H189.671L189.397 51.8141L188.933 52ZM186.103 52L185.636 52.1794L185.759 52.5H186.103V52ZM184.978 49.0732L185.444 48.8938L185.321 48.5732H184.978V49.0732ZM179.827 49.0732V48.5732H179.477L179.357 48.9025L179.827 49.0732ZM178.764 52V52.5H179.114L179.234 52.1708L178.764 52ZM176.004 52L175.538 51.8185L175.273 52.5H176.004V52ZM181.022 39.1152V38.6152H180.681L180.557 38.9338L181.022 39.1152ZM183.773 39.1152L184.238 38.9294L184.112 38.6152H183.773V39.1152ZM184.143 46.9023V47.4023H184.862L184.611 46.7283L184.143 46.9023ZM182.367 42.1211L182.836 41.947L182.362 40.6721L181.897 41.9501L182.367 42.1211ZM180.627 46.9023L180.157 46.7313L179.913 47.4023H180.627V46.9023ZM188.933 51.5H186.103V52.5H188.933V51.5ZM186.569 51.8206L185.444 48.8938L184.511 49.2526L185.636 52.1794L186.569 51.8206ZM184.978 48.5732H179.827V49.5732H184.978V48.5732ZM179.357 48.9025L178.294 51.8292L179.234 52.1708L180.297 49.244L179.357 48.9025ZM178.764 51.5H176.004V52.5H178.764V51.5ZM176.47 52.1815L181.488 39.2967L180.557 38.9338L175.538 51.8185L176.47 52.1815ZM181.022 39.6152H183.773V38.6152H181.022V39.6152ZM183.309 39.3011L188.468 52.1859L189.397 51.8141L184.238 38.9294L183.309 39.3011ZM184.611 46.7283L182.836 41.947L181.898 42.2951L183.674 47.0764L184.611 46.7283ZM181.897 41.9501L180.157 46.7313L181.097 47.0734L182.837 42.2921L181.897 41.9501ZM180.627 47.4023H184.143V46.4023H180.627V47.4023ZM189.012 52L188.593 51.7261L188.087 52.5H189.012V52ZM193.415 45.2764L193.833 45.5503L194.012 45.2779L193.835 45.0046L193.415 45.2764ZM189.425 39.1152V38.6152H188.505L189.005 39.387L189.425 39.1152ZM192.466 39.1152L192.89 38.8505L192.743 38.6152H192.466V39.1152ZM195.05 43.2549L194.626 43.5196L195.054 44.2062L195.476 43.5157L195.05 43.2549ZM197.581 39.1152V38.6152H197.301L197.154 38.8544L197.581 39.1152ZM200.596 39.1152L201.017 39.3849L201.51 38.6152H200.596V39.1152ZM196.588 45.373L196.167 45.1034L195.991 45.3781L196.171 45.6498L196.588 45.373ZM200.991 52V52.5H201.924L201.408 51.7233L200.991 52ZM197.854 52L197.433 52.2698L197.58 52.5H197.854V52ZM194.997 47.5439L195.418 47.2741L194.998 46.6185L194.577 47.2735L194.997 47.5439ZM192.132 52V52.5H192.405L192.552 52.2704L192.132 52ZM189.43 52.2739L193.833 45.5503L192.997 45.0024L188.593 51.7261L189.43 52.2739ZM193.835 45.0046L189.844 38.8434L189.005 39.387L192.995 45.5482L193.835 45.0046ZM189.425 39.6152H192.466V38.6152H189.425V39.6152ZM192.042 39.38L194.626 43.5196L195.474 42.9901L192.89 38.8505L192.042 39.38ZM195.476 43.5157L198.008 39.3761L197.154 38.8544L194.623 42.994L195.476 43.5157ZM197.581 39.6152H200.596V38.6152H197.581V39.6152ZM200.175 38.8456L196.167 45.1034L197.009 45.6427L201.017 39.3849L200.175 38.8456ZM196.171 45.6498L200.575 52.2767L201.408 51.7233L197.004 45.0963L196.171 45.6498ZM200.991 51.5H197.854V52.5H200.991V51.5ZM198.274 51.7302L195.418 47.2741L194.576 47.8138L197.433 52.2698L198.274 51.7302ZM194.577 47.2735L191.711 51.7296L192.552 52.2704L195.418 47.8144L194.577 47.2735ZM192.132 51.5H189.012V52.5H192.132V51.5ZM202.248 52H201.748V52.5H202.248V52ZM202.248 39.1152V38.6152H201.748V39.1152H202.248ZM204.85 39.1152H205.35V38.6152H204.85V39.1152ZM204.85 52V52.5H205.35V52H204.85ZM202.748 52V39.1152H201.748V52H202.748ZM202.248 39.6152H204.85V38.6152H202.248V39.6152ZM204.35 39.1152V52H205.35V39.1152H204.35ZM204.85 51.5H202.248V52.5H204.85V51.5Z"
+                  fill="#004197"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect
+                    width="211"
+                    height="58"
+                    fill="white"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+            <p
+              class="nav-brand ml-5"
+            >
+              First Class Service
+            </p> 
+          </b-navbar-brand>
+        </a>
+     
+        <b-navbar-toggle target="nav-collapse" />
+        <b-collapse
+          id="nav-collapse"
+          is-nav
+        >
+          <b-navbar-nav class="ml-auto text-center ">
+            <li class="nav-item">
+              <router-link
+                class="nav-link effect-4"
+                :to="`/${$i18n.locale}/`"
+                @click.native="myToggler"
+              >
+                HOME
+              </router-link>
+            </li>
+
+            <div class="dropdown">
+              <router-link
+                class="nav-link dropbtn effect-4"
+                :to="`/${$i18n.locale}/services`"
+                @click.native="myToggler"
+              >
+                SERVICES
+              </router-link>
+              <div class="dropdown-content text-left">
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/limousine-service`"
+                  @click.native="myToggler"
+                >
+                  Шофер - лимузин сервис
+                </router-link>
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/shuttle-service`"
+                  @click.native="myToggler"
+                >
+                  Шаттл-сервис
+                </router-link>
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/female-service`"
+                  @click.native="myToggler"
+                >
+                  Женское такси
+                </router-link>
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/medical-service`"
+                  @click.native="myToggler"
+                >
+                  Медицинские поездки
+                </router-link>
+              </div>
+            </div>
+
+            <div class="smnav">
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/limousine-service`"
+                  @click.native="myToggler"
+                >
+                  Шофер - лимузин сервис
+                </router-link>
+              </li>
+
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/shuttle-service`"
+                  @click.native="myToggler"
+                >
+                  Шаттл-сервис
+                </router-link>
+              </li>   
+
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/female-service`"
+                  @click.native="myToggler"
+                >
+                  Женское такси
+                </router-link>
+              </li>    
+
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/medical-service`"
+                  @click.native="myToggler"
+                >
+                  Медицинские поездки
+                </router-link>
+              </li>
+            </div>
+
+
+            <li class="nav-item">
+              <router-link
+                class="nav-link effect-4"
+                :to="`/${$i18n.locale}/flot`"
+                @click.native="myToggler"
+              >
+                FLOTTE
+              </router-link>
+            </li>
+
+            <div class="dropdown">
+              <router-link
+                class="nav-link dropbtn effect-4"
+               
+                :to="`/${$i18n.locale}/about-us`"
+                @click.native="myToggler"
+              >
+                ÜBER UNS 
+              </router-link>
+              <div class="dropdown-content text-left">
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/about-company`"
+                  @click.native="myToggler"
+                >
+                  Репутация
+                </router-link>
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/driver-training`"
+                  @click.native="myToggler"
+                >
+                  Программа профессионального роста водителей
+                </router-link>
+                <router-link
+                  class="dropdown-a"
+                  :to="`/${$i18n.locale}/software`"
+                  @click.native="myToggler"
+                >
+                  Программное обеспечение
+                </router-link>
+              </div>
+            </div>
+
+            <div class="smnav">
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/about-company`"
+                  @click.native="myToggler"
+                >
+                  Репутация
+                </router-link>
+              </li>
+
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/driver-training`"
+                  @click.native="myToggler"
+                >
+                  Программа профессионального роста водителей
+                </router-link>
+              </li>   
+
+              <li class="nav-item">
+                <router-link
+                  class="nav-link effect-4"
+                  :to="`/${$i18n.locale}/software`"
+                  @click.native="myToggler"
+                >
+                  Программное обеспечение
+                </router-link>
+              </li>
+            </div>
+
+
+            <li class="nav-item">
+              <router-link
+                class="nav-link effect-4"
+                :to="`/${$i18n.locale}/contacts`"
+                @click.native="myToggler"
+              >
+                LOUNGE ♪
+              </router-link>
+            </li>
+
+
+            <li class="nav-item">
+              <router-link
+                class="nav-link effect-4"
+                :to="`/${$i18n.locale}/contacts`"
+                @click.native="myToggler"
+              >
+                KONTAKT
+              </router-link>
+            </li>
+            <li>
+              <div class="locale-changer" />
+            </li>
+            <b-nav-item-dropdown
+              class="dropit"
+              right
+            >
+              <template
+                slot="button-content"
+              >
+                <b-img
+                  class="flag-img"
+                  title="languages"
+                  :src="require(`../img/flags/${$i18n.locale}.svg`)"
+                  @click="addToFavorite(inf)"
+                />
+              </template>
+              <b-dropdown-item
+                href="#"
+                @click.prevent="setLocale('en')"
+              >
+                <b-img
+                  class="flag-img"
+                  :src="require(`../img/flags/en.svg`)"
+                  @click="addToFavorite(inf)"
+                /> EN
+              </b-dropdown-item>
+              <!-- турецкий -->
+              <b-dropdown-item
+                href="#"
+                @click.prevent="setLocale('tr')"
+              >
+                <b-img
+                  class="flag-img"
+                  :src="require(`../img/flags/tr.svg`)"
+                  @click="addToFavorite(inf)"
+                /> TR
+              </b-dropdown-item>
+              <!-- русский -->
+              <b-dropdown-item
+                href="#"
+                @click.prevent="setLocale('ru')"
+              >
+                <b-img
+                  class="flag-img"
+                  :src="require(`../img/flags/ru.svg`)"
+                  @click="addToFavorite(inf)"
+                /> RU
+              </b-dropdown-item>
+              <!-- немецкий -->
+              <b-dropdown-item
+                href="#"
+                @click.prevent="setLocale('de')"
+              >
+                <b-img
+                  class="flag-img"
+                  :src="require(`../img/flags/de.svg`)"
+                  @click="addToFavorite(inf)"
+                /> DE
+              </b-dropdown-item>
+            </b-nav-item-dropdown>
+          </b-navbar-nav>
+        </b-collapse>
+      </div>
+    </b-navbar>
+  </div>
+</template>
+
+<script>
+
+export default {
+    name: "Navbar",
+    props: ["isShown", "isProgressing", "myToggler"],
+
+    methods: {
+        setLocale(locale) {
+            this.$i18n.locale = locale
+            this.$router.push ({
+                params: {lang: locale}
+            })
+        }
+    },
+};
+</script>
+
+<style>
+.bg-brown {
+  background-color: #5C5C5C !important;
+}
+.nav-brand {
+ margin: 0 auto;
+ font-size: 12px;
+ line-height: 14px;
+ color: rgba(234, 234, 234, 0.46);
+}
+.navbar {
+ padding-top: 0px !important;
+ padding-bottom: 0px !important
+}
+.nav-link {
+  margin: 2px !important
+}
+.dropdown-toggle::after  {
+  display: none !important;
+} 
+.dropit span {
+ background-color: #534E4E
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-toggle {
+  text-decoration: none;
+  padding-left: 0 !important;
+}
+.dropdown-menu  {
+  margin-top: -7px !important;
+  background-color: #f1f1f1 !important;
+}
+.dropdown-menu:focus  {
+  outline: none !important;
+}
+
+
+.flag-img { 
+  width: 20px;
+  height: 20px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #534E4E;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+a, a > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+}
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+.effect-4 {
+  padding: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+.effect-4:before, .effect-4:after {
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+.effect-4:before {
+  bottom: 0;
+  transform: translateX(-100%);
+} 
+.effect-4:after {
+  top: 0;
+  transform: translateX(100%);
+}
+.effect-4:hover:before, .effect-4:hover:after {
+  height: 2px;
+  transform: translateX(0);
+}
+</style>

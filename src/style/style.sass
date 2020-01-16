@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=cyrillic")
+@import "_home"
+@import "_services"
+@import "_aboutus"
+@import "_contacts"
+@import "_flot"
+@import "_ecology"
+@import "_input"
+@import "_jobs"
+@import "_responsibility"
+@import "_loader"
+html, body
+ box-sizing: border-box !important
+ font-style: normal !important
+ font-weight: normal !important
+ color: #000000 !important
+ 
+img
+  pointer-events: none
+//текст в картинке 
+.img-wrap 
+  position: relative
+  width: 100% // для IE 6 
+.img-wrap a
+  background: rgba(62, 62, 61, 0.7)
+  padding: 0.7em 0
+  height: 15%
+  position: absolute
+  bottom: 0px
+  width: 100%
+  left: 0
+  text-align: center
+  color: white
+  font-weight: 300
+  font-size: 24px
+  line-height: 28px
+  letter-spacing: 0.04em
+.img-wrap a:hover
+  color: #C9CACC
+  text-decoration: none
+.img-wrap a::after
+ content: " >"
+ font-size: 20px
+ color: yellow
+
+.smnav
+  display: none  
+@media (max-width: 1200px)
+  .img-wrap a
+    padding: 1.2em 0
+  .nav-link 
+    margin: 5px !important
+    padding-left: 1rem !important
+    padding-right: 1rem !important
+@media (max-width: 992px)
+  .smnav
+    display: block  
+    background-color: #BB8C72
+    border-radius: 10px
+  .img-wrap a
+    padding: 0.7em 0
+  .dropdown-content
+    display: none !important
+  .nav-link, .navbar-nav
+    padding-left: 10px !important
+    padding: 10px !important
+@media (max-width: 768px)
+   .img-wrap a
+    padding: 0.3em 0
+@media (max-width: 576px)
+   .img-wrap a
+    padding: 0.1em 0
+
+
+// .router-link-active
+.router-link-exact-active
+  color: #F8DB00 !important
+  display: inline-block !important
+  overflow: hidden !important
+
+.router-link-exact-active:before
+
+  left: 0 !important
+  width: 100% !important
+  height: 2px !important
+  background: #fff !important
+
+.router-link-exact-active:before
+  transform: translateX(0) !important
+
+.captcha
+  width: 304px
+  margin: 0 auto
+
+
+
+

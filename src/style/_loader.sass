@@ -1,0 +1,78 @@
+.loaderMp
+    transform: translate(100%, 0%) matrix(1, 0, 0, 1, 0, 0)
+    position: fixed
+    will-change: transform
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background: white
+    z-index: 2
+    display: none
+    overflow: hidden
+    height: 100%
+    width: 100%
+.loaderInner
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    margin: auto
+    max-width: 100%
+    text-align: center
+    height: 100vh
+.loaderLogo
+    display: block
+    margin: 0 auto
+.loaderText
+    color: #8d8d8d
+    margin-top: 9px
+    font-size: 23px
+    letter-spacing: 3px
+    margin-bottom: 30px
+    display: block
+.loaderBar
+    text-align: center
+
+
+.loaderBarBg
+    margin: 0 auto
+    width: 40%
+    background: #073E59
+.showing
+    animation: loaderWindow 1.9s linear forwards
+    display: block
+@keyframes loaderWindow
+    0%
+        transform: translate(0,-100%)
+    25%
+        transform: translate(0,0)
+    50%
+        transform: translate(0,0)
+    60%
+        transform: translate(0,0)
+    100%
+        transform: translate(0,100%)
+
+.st0 
+  stroke: #F8DB00 !important
+  stroke-width: 1
+  fill: transparent
+  stroke-dasharray: 700
+  stroke-dashoffset: 700
+  animation: dash 3s 0.7s linear forwards
+
+@keyframes dash 
+  to 
+    stroke-dashoffset: 0
+    fill: #F8DB00
+  
+.st1 
+  stroke: #F8DB00 !important
+  stroke-width: 1
+  fill: transparent
+  stroke-dasharray: 700
+  stroke-dashoffset: 700
+  animation: dash 5s linear infinite
+ 

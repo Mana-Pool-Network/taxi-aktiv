@@ -1,0 +1,166 @@
+.inp
+  position: relative
+  margin: auto
+  width: 100%
+ 
+  //transform: rotateX(45deg) rotateY(-10deg) rotate(25deg) scale(2)
+  .label
+    position: absolute
+    top: 16px
+    left: 0
+    font-size: 16px
+    color: #9098A9
+    font-weight: 500
+    transform-origin: 0 0
+    transition: all .2s ease
+  .border1
+    position: absolute
+    bottom: 0
+    left: 0
+    height: 2px
+    width: 100%
+    border: 1px solid #110239 !important
+    background: #110239
+    transform: scaleX(0)
+    transform-origin: 0 0
+    transition: all .15s ease
+  input
+    -webkit-appearance: none
+    width: 100%
+    border: 0
+    font-family: inherit
+    padding: 12px 0
+    height: 48px
+    font-size: 16px
+    font-weight: 500
+    border-bottom: 2px solid #110239
+    background: none
+    border-radius: 0
+    color: #223254
+    transition: all .15s ease
+    &:hover
+      background: rgba(#223254,.03)
+    &:not(:placeholder-shown)
+      + span
+        background: none
+        color: #5A667F
+        transform: translateY(-26px) scale(.75)
+    &:focus
+      background: none
+      outline: none
+      + span
+        background: none
+        color: #110239
+        transform: translateY(-26px) scale(.75)
+        + .border1
+            transform: scaleX(1)
+
+
+.inp1, .inp2, .inp3, .inp4, .inp5, .inp6, .inp7
+  position: relative
+  margin: auto
+  width: 100%
+ 
+.inp span 
+ background: none
+
+
+textarea, select
+    -webkit-appearance: none
+    width: 100%
+    border: 0
+    font-family: inherit
+    padding: 12px 0
+    height: 200px
+    font-size: 16px
+    font-weight: 500
+    border-bottom: 2px solid #110239
+    background: none
+    border-radius: 0
+    color: #223254
+    transition: all .15s ease
+    &:hover
+      background: rgba(#223254,.03)
+    &:not(:placeholder-shown)
+      + span
+        background: none
+        color: #5A667F
+        transform: translateY(-26px) scale(.75)
+    &:focus
+      background: none
+      outline: none
+      + span
+        background: none
+        color: #110239
+        transform: translateY(-26px) scale(.75)
+
+
+
+.square 
+  width: .7em
+  height: .7em
+  margin: .5em
+  display: inline-block
+
+
+/* Custom dropdown */
+.custom-dropdown 
+  position: relative
+  display: inline-block
+  vertical-align: middle
+
+
+.custom-dropdown select 
+  background: rgba(251, 250, 246, 0.99) !important
+  border: 1px solid #FFEC01 !important
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) 
+  font-size: inherit 
+  padding: .5em 
+  padding-right: 2.5em  
+  border: 0 
+  margin: 0 
+  border-radius: 3px 
+  text-indent: 0.01px 
+  text-overflow: '' 
+  -webkit-appearance: button 
+
+
+.custom-dropdown::before,
+.custom-dropdown::after 
+  content: ""
+  position: absolute
+  pointer-events: none
+
+
+.custom-dropdown::after  /*  Custom dropdown arrow */
+  content: "\25BC" !important
+  height: 1em
+  font-size: .625em
+  line-height: 1
+  right: 1.2em
+  top: 50%
+  margin-top: -.5em
+
+
+.custom-dropdown::before  /*  Custom dropdown arrow cover */
+  width: 2em
+  right: 0
+  top: 0
+  bottom: 0
+  border-radius: 0 3px 3px 0
+
+
+.custom-dropdown select[disabled] 
+  color: rgba(0,0,0,.3)
+
+
+.custom-dropdown select[disabled]::after 
+  color: rgba(0,0,0,.1)
+
+
+.custom-dropdown::before 
+  background-color: #003F67
+
+
+.custom-dropdown::after 
+  color: #FFEC01
